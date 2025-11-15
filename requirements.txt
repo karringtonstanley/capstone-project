@@ -1,0 +1,13 @@
+# Use Python 3.11 (recommended)
+# create with: python3.11 -m venv .venv && source .venv/bin/activate
+
+--only-binary=:all:
+
+torch==2.9.1
+torchvision==0.24.1
+numpy==1.26.4
+opencv-python==4.11.0.86
+mediapipe==0.10.21
+cvzone==1.6.1
+Flask
+PyYAML==6.0.2

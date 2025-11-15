@@ -1,24 +1,19 @@
-# macOS
+
+# OS
 .DS_Store
 
 # Python
+.venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.env
-venv/
-.venv/
 
-# VS Code
-.vscode/
-
-# camera data
-data/
-
-# Trained models
+# Models/checkpoints (keep the folder, skip weights)
 models/
+!models/.gitkeep
 
-# Logs
-*.log
-events.txt
+# Datasets (skip big images; keep folder structure)
+data/
+!data/.gitkeep
+
+# Misc
+.ipynb_checkpoints/
